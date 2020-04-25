@@ -179,7 +179,7 @@ reset()
 } else if (missed >= 5) 
 { overlay.className = 'lose';
 overlay.style.display = 'flex';
-title.textContent = 'Game Over';
+title.textContent = 'ΕΧΑΣΕΣ! Η ΣΩΣΤΗ ΑΠΑΝΤΗΣΗ ΕΙΝΑΙ: ' + phraseArray.join('');
 start.textContent = 'Παίξε ξανά!';
 reset()
 }
